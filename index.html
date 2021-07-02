@@ -18,7 +18,7 @@
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">x = &#123;<span class="string">&quot;name&quot;</span> : <span class="string">&quot;John&quot;</span>, <span class="string">&quot;age&quot;</span> : <span class="number">36</span>&#125;</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(x))</span><br></pre></td></tr></table></figure>
 
 <h1 id="Exercise-7"><a href="#Exercise-7" class="headerlink" title="Exercise 7"></a>Exercise 7</h1><p>아래 코드의 변수 x의 data type을 확인합니다.</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">x = <span class="literal">True</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(x))</span><br></pre></td></tr></table></figure></div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-07-02T01:46:21.672Z" title="2021-7-2 10:46:21">2021-07-02</time>&nbsp;게시 됨</span><span class="level-item"><time dateTime="2021-07-02T02:16:12.896Z" title="2021-7-2 11:16:12">2021-07-02</time>&nbsp;업데이트 됨</span><span class="level-item"><a class="link-muted" href="/categories/python/">python</a></span><span class="level-item">3분안에 읽기 (약 384 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2021/07/02/py-day8-datatypes/">py-day8-datatypes</a></h1><div class="content"><h1 id="Python-DataTypes"><a href="#Python-DataTypes" class="headerlink" title="Python DataTypes"></a>Python DataTypes</h1><h2 id="1-내장-되어-있는-데이터-타입-Built-in-Data-Types"><a href="#1-내장-되어-있는-데이터-타입-Built-in-Data-Types" class="headerlink" title="1. 내장 되어 있는 데이터 타입(Built-in Data Types)"></a>1. 내장 되어 있는 데이터 타입(Built-in Data Types)</h2><p>프로그래밍에서 데이터 유형은 중요한 개념입니다.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">x = <span class="literal">True</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(x))</span><br></pre></td></tr></table></figure></div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-07-02T01:46:21.672Z" title="2021-7-2 10:46:21">2021-07-02</time>&nbsp;게시 됨</span><span class="level-item"><time dateTime="2021-07-02T02:41:47.554Z" title="2021-7-2 11:41:47">2021-07-02</time>&nbsp;업데이트 됨</span><span class="level-item"><a class="link-muted" href="/categories/python/">python</a></span><span class="level-item">3분안에 읽기 (약 384 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2021/07/02/py-day8-datatypes/">py-day8-datatypes</a></h1><div class="content"><h1 id="Python-DataTypes"><a href="#Python-DataTypes" class="headerlink" title="Python DataTypes"></a>Python DataTypes</h1><h2 id="1-내장-되어-있는-데이터-타입-Built-in-Data-Types"><a href="#1-내장-되어-있는-데이터-타입-Built-in-Data-Types" class="headerlink" title="1. 내장 되어 있는 데이터 타입(Built-in Data Types)"></a>1. 내장 되어 있는 데이터 타입(Built-in Data Types)</h2><p>프로그래밍에서 데이터 유형은 중요한 개념입니다.</p>
 <p>변수는 다른 유형의 데이터를 저장할 수 있으며 다른 유형은 다른 일을 할 수 있습니다.</p>
 <p>Python에는 기본적으로 다음과 같은 카테고리에 다음 데이터 유형이 내장되어 있습니다.</p>
 <table>
@@ -125,7 +125,71 @@
 <td>memoryview</td>
 </tr>
 </tbody></table>
-<h2 id="4-특정-데이터-타입-설정"><a href="#4-특정-데이터-타입-설정" class="headerlink" title="4. 특정 데이터 타입 설정"></a>4. 특정 데이터 타입 설정</h2><p>데이터 유형을 지정하려는 경우 다음 생성자 함수를 사용할 수 있습니다<br>|Example|Data Type|<br>|——-|———|<br>|x = str(“Hello World”)|str|<br>|x = int(20)|int|<br>|x = float(20.5)|float|<br>|x = complex(1j)|complex|<br>|x = list((“apple”, “banana”, “cherry”))|list|<br>|x = tuple((“apple”, “banana”, “cherry”))|tuple|<br>|x = range(6)|range|<br>|x = dict(name=”John”, age=36)|dict|<br>|x = set((“apple”, “banana”, “cherry”))|set|<br>|x = frozenset({“apple”, “banana”, “cherry”})|frozenset|<br>|x = bool(5)|bool|<br>|x = bytes(5)|bytes|<br>|x = bytearray(5)|bytearray|<br>|x = memoryview(bytes(5))|memoryview|</p>
+<h2 id="4-특정-데이터-타입-설정"><a href="#4-특정-데이터-타입-설정" class="headerlink" title="4. 특정 데이터 타입 설정"></a>4. 특정 데이터 타입 설정</h2><p>데이터 유형을 지정하려는 경우 다음 생성자 함수를 사용할 수 있습니다.</p>
+<table>
+<thead>
+<tr>
+<th>Example</th>
+<th>Data Type</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>x = str(“Hello World”)</td>
+<td>str</td>
+</tr>
+<tr>
+<td>x = int(20)</td>
+<td>int</td>
+</tr>
+<tr>
+<td>x = float(20.5)</td>
+<td>float</td>
+</tr>
+<tr>
+<td>x = complex(1j)</td>
+<td>complex</td>
+</tr>
+<tr>
+<td>x = list((“apple”, “banana”, “cherry”))</td>
+<td>list</td>
+</tr>
+<tr>
+<td>x = tuple((“apple”, “banana”, “cherry”))</td>
+<td>tuple</td>
+</tr>
+<tr>
+<td>x = range(6)</td>
+<td>range</td>
+</tr>
+<tr>
+<td>x = dict(name=”John”, age=36)</td>
+<td>dict</td>
+</tr>
+<tr>
+<td>x = set((“apple”, “banana”, “cherry”))</td>
+<td>set</td>
+</tr>
+<tr>
+<td>x = frozenset({“apple”, “banana”, “cherry”})</td>
+<td>frozenset</td>
+</tr>
+<tr>
+<td>x = bool(5)</td>
+<td>bool</td>
+</tr>
+<tr>
+<td>x = bytes(5)</td>
+<td>bytes</td>
+</tr>
+<tr>
+<td>x = bytearray(5)</td>
+<td>bytearray</td>
+</tr>
+<tr>
+<td>x = memoryview(bytes(5))</td>
+<td>memoryview</td>
+</tr>
+</tbody></table>
 <h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><p><a target="_blank" rel="noopener" href="https://www.w3schools.com/python/python_syntax.asp">w3schools python</a></p>
 </div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-07-02T01:35:48.197Z" title="2021-7-2 10:35:48">2021-07-02</time>&nbsp;게시 됨</span><span class="level-item"><time dateTime="2021-07-02T02:17:24.272Z" title="2021-7-2 11:17:24">2021-07-02</time>&nbsp;업데이트 됨</span><span class="level-item"><a class="link-muted" href="/categories/python/">python</a></span><span class="level-item">1분안에 읽기 (약 158 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2021/07/02/py-exercises-1/">py-exercises-1</a></h1><div class="content"><h1 id="Exercise-1"><a href="#Exercise-1" class="headerlink" title="Exercise 1"></a>Exercise 1</h1><p>변수 명을 x로 만들고 값 50을 할당하시오.</p>
 <h1 id="Exercise-2"><a href="#Exercise-2" class="headerlink" title="Exercise 2"></a>Exercise 2</h1><p>변수 x, y를 사용하여 “5 + 10”을 출력하시오.</p>
