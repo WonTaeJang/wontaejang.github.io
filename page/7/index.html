@@ -1,5 +1,268 @@
 <!doctype html>
-<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>git blog</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="git blog"><meta name="msapplication-TileImage" content="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="git blog"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta property="og:type" content="blog"><meta property="og:title" content="git blog"><meta property="og:url" content="https://wontaejang.github.io/"><meta property="og:site_name" content="git blog"><meta property="og:locale" content="ko_KR"><meta property="og:image" content="https://wontaejang.github.io/img/og_image.png"><meta property="article:author" content="WT.Jang"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://wontaejang.github.io"},"headline":"git blog","image":["https://wontaejang.github.io/img/og_image.png"],"author":{"@type":"Person","name":"WT.Jang"},"description":""}</script><link rel="icon" href="/img/favicon.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.4.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.svg" alt="git blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="검색" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-04-27T07:47:01.202Z" title="2021-4-27 16:47:01">2021-04-27</time>&nbsp;게시 됨</span><span class="level-item"><time dateTime="2021-05-03T08:21:14.096Z" title="2021-5-3 17:21:14">2021-05-03</time>&nbsp;업데이트 됨</span><span class="level-item"><a class="link-muted" href="/categories/css/">css</a></span><span class="level-item">29분안에 읽기 (약 4372 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2021/04/27/css3-day-4/">css3-day-4</a></h1><div class="content"><h2 id="2-4-CSS3-Box-Model"><a href="#2-4-CSS3-Box-Model" class="headerlink" title="2.4 CSS3 Box Model"></a>2.4 CSS3 Box Model</h2><h1 id="박스-모델"><a href="#박스-모델" class="headerlink" title="박스 모델"></a>박스 모델</h1><p>모든 HTML 요소는 Box 형태의 영역을 가지고 있다. Box 형태란 물론 사각형을 의미한다. </p>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>git blog</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="git blog"><meta name="msapplication-TileImage" content="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="git blog"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta property="og:type" content="blog"><meta property="og:title" content="git blog"><meta property="og:url" content="https://wontaejang.github.io/"><meta property="og:site_name" content="git blog"><meta property="og:locale" content="ko_KR"><meta property="og:image" content="https://wontaejang.github.io/img/og_image.png"><meta property="article:author" content="WT.Jang"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://wontaejang.github.io"},"headline":"git blog","image":["https://wontaejang.github.io/img/og_image.png"],"author":{"@type":"Person","name":"WT.Jang"},"description":""}</script><link rel="icon" href="/img/favicon.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.4.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.svg" alt="git blog" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="검색" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-04-29T07:38:39.440Z" title="2021-4-29 16:38:39">2021-04-29</time>&nbsp;게시 됨</span><span class="level-item"><time dateTime="2021-05-03T08:21:14.097Z" title="2021-5-3 17:21:14">2021-05-03</time>&nbsp;업데이트 됨</span><span class="level-item"><a class="link-muted" href="/categories/css/">css</a></span><span class="level-item">9분안에 읽기 (약 1417 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2021/04/29/css3-day-5/">css3-day-5</a></h1><div class="content"><h2 id="2-5-CSS3-Display"><a href="#2-5-CSS3-Display" class="headerlink" title="2.5 CSS3 Display"></a>2.5 CSS3 Display</h2><h1 id="display-visibility-opacity-프로퍼티"><a href="#display-visibility-opacity-프로퍼티" class="headerlink" title="display, visibility, opacity 프로퍼티"></a>display, visibility, opacity 프로퍼티</h1><h1 id="1-display-프로퍼티"><a href="#1-display-프로퍼티" class="headerlink" title="1.display 프로퍼티"></a>1.display 프로퍼티</h1><p>display 프로퍼티는 layout 정의에 자주 사용되는 중요한 프로퍼티이다. </p>
+<table>
+<thead>
+<tr>
+<th>프로퍼티값 키워드</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>block</td>
+<td>block 특성을 가지는 요소(block 레벨 요소)로 지정</td>
+</tr>
+<tr>
+<td>inline</td>
+<td>inline 특성을 가지는 요소(inline 레벨 요소)로 지정</td>
+</tr>
+<tr>
+<td>inline-block</td>
+<td>inline-block 특성을 가지는 요소(inline-block 레벨 요소)로 지정</td>
+</tr>
+<tr>
+<td>none</td>
+<td>해당 요소를 화면에 표시하지 않는다(공간조차 사라진다.)</td>
+</tr>
+</tbody></table>
+<p>모든 HTML 요소는 아무런 CSS를 적용하지 않아도 기본적으로 브라우저에 표현되는 디폴트 표시값을 가진다. HTML 요소는 block 또는 inline 튿성을 갖는다. </p>
+<p>아래는 p 요소에 대한 크롬 브라우저의 디폴트 css이다.</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  -webkit-<span class="attribute">margin</span>-before: <span class="number">1em</span>;</span><br><span class="line">  -webkit-<span class="attribute">margin</span>-after: <span class="number">1em</span>;</span><br><span class="line">  -webkit-<span class="attribute">margin</span>-start: <span class="number">0px</span>;</span><br><span class="line">  -webkit-<span class="attribute">margin</span>-end: <span class="number">0px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>display 프로퍼티는 상속되지 않는다.</p>
+</blockquote>
+<h2 id="1-1-block-레벨-요소"><a href="#1-1-block-레벨-요소" class="headerlink" title="1.1 block 레벨 요소"></a>1.1 block 레벨 요소</h2><p>block 특성을 가지는 요소(block 레벨 요소 또는 block 요소)는 아래와 같은 특징을 갖는다. </p>
+<ul>
+<li>항상 새로운 라인에서 시작한다.</li>
+<li>화면 크기 전체의 가로폭을 차지한다.(width: 100%)</li>
+<li>width, height, margin, padding 프로퍼티 지정이 가능하다. </li>
+<li>block 레벨 요소 예<blockquote>
+<p>div<br>h1~h6<br>p<br>ol<br>ul<br>li<br>hr<br>table<br>form</p>
+</blockquote>
+</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="css">    <span class="selector-tag">div</span><span class="selector-pseudo">:nth-of-type</span>(<span class="number">1</span>) &#123;</span></span><br><span class="line"><span class="css">      <span class="attribute">background-color</span>: <span class="number">#FFA07A</span>;</span></span><br><span class="line"><span class="css">      <span class="attribute">padding</span>: <span class="number">20px</span>;</span></span><br><span class="line">    &#125;</span><br><span class="line"><span class="css">    <span class="selector-tag">div</span><span class="selector-pseudo">:nth-of-type</span>(<span class="number">2</span>) &#123;</span></span><br><span class="line"><span class="css">      <span class="attribute">background-color</span>: <span class="number">#FF7F50</span>;</span></span><br><span class="line"><span class="css">      <span class="attribute">padding</span>: <span class="number">20px</span>;</span></span><br><span class="line"><span class="css">      <span class="attribute">width</span>: <span class="number">300px</span>;</span></span><br><span class="line">    &#125;</span><br><span class="line">  <span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h2</span>&gt;</span>블록 레벨 요소<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>width, height 미지정 → width: 100%; height: auto;<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h2</span>&gt;</span>블록 레벨 요소<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>width: 300px → width: 300px; height: auto;<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h3 id="result"><a href="#result" class="headerlink" title="result"></a><em><strong>result</strong></em></h3><iframe width='100%' height='350px' srcdoc="
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    div:nth-of-type(1) {
+      background-color: #FFA07A;
+      padding: 20px;
+    }
+    div:nth-of-type(2) {
+      background-color: #FF7F50;
+      padding: 20px;
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h2>블록 레벨 요소</h2>
+    <p>width, height 미지정 → width: 100%; height: auto;</p>
+  </div>
+  <div>
+    <h2>블록 레벨 요소</h2>
+    <p>width: 300px → width: 300px; height: auto;</p>
+  </div>
+</body>
+</html>
+">
+</iframe>
+
+<h2 id="1-2-inline-레벨-요소"><a href="#1-2-inline-레벨-요소" class="headerlink" title="1.2 inline 레벨 요소"></a>1.2 inline 레벨 요소</h2><p>inline 특성을 가지는 요소(inline 레벨 요소 또는 inline 요소)는 아래와 같은 특징을 갖는다. </p>
+<ul>
+<li><p>새로운 라인에서 시작하지 않으며 문장의 중간에 들어갈 수 있다. 즉, 줄을 바꾸지 않고 다른 요소와 함께 한 행에 위치한다. </p>
+</li>
+<li><p>content의 너비만큼 가로폭을 차지한다. </p>
+</li>
+<li><p>width, height, margin-top, margin-bottom 프로퍼티를 지정할 수 없다. 상, 하 여백은 line-height로 지정한다. </p>
+</li>
+<li><p>inline 레벨 요소 뒤에 공백(엔터, 스페이스 등)이 있는 경우, 정의하지 않은 space(4px)가 자동 지정된다. </p>
+</li>
+<li><p>inline 레벨 요소 내에 block 레벨 요소를 포함할 수 없다. inline 레벨 요소는 일반적으로 block 레벨 요소에 포함되어 사용된다. </p>
+</li>
+</ul>
+<blockquote>
+<ul>
+<li>span</li>
+<li>a</li>
+<li>strong</li>
+<li>img</li>
+<li>input</li>
+<li>select</li>
+<li>textarea</li>
+<li>button</li>
+</ul>
+</blockquote>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="css">    <span class="selector-tag">span</span> &#123;</span></span><br><span class="line"><span class="css">      <span class="attribute">background-color</span>: red;</span></span><br><span class="line"><span class="css">      <span class="attribute">color</span>: white;</span></span><br><span class="line"><span class="css">      <span class="attribute">padding</span>: <span class="number">10px</span>;</span></span><br><span class="line"><span class="css">      <span class="comment">/* width, height, margin-top, margin-bottom 프로퍼티를 지정할 수 없다. */</span></span></span><br><span class="line"><span class="css">      <span class="comment">/* width: 200px; */</span></span></span><br><span class="line"><span class="css">      <span class="comment">/* margin: 10px; */</span></span></span><br><span class="line"><span class="css">      <span class="comment">/* 상, 하 여백은 line-height로 지정한다. */</span></span></span><br><span class="line"><span class="css">      <span class="comment">/* line-height: 50px; */</span></span></span><br><span class="line">    &#125;</span><br><span class="line">  <span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">h1</span>&gt;</span>My <span class="tag">&lt;<span class="name">span</span>&gt;</span>Important<span class="tag">&lt;/<span class="name">span</span>&gt;</span> Heading<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">span</span>&gt;</span>Inline<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">span</span>&gt;</span>Inline<span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;<span class="name">span</span>&gt;</span>Inline<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="result-1"><a href="#result-1" class="headerlink" title="result"></a><em><strong>result</strong></em></h3><iframe width='100%' height='200px' srcdoc="
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    span {
+      background-color: red;
+      color: white;
+      padding: 10px;
+      /* width, height, margin-top, margin-bottom 프로퍼티를 지정할 수 없다. */
+      /* width: 200px; */
+      /* margin: 10px; */
+      /* 상, 하 여백은 line-height로 지정한다. */
+      /* line-height: 50px; */
+    }
+  </style>
+</head>
+<body>
+  <h1>My <span>Important</span> Heading</h1>
+  <span>Inline</span>
+  <span>Inline</span><span>Inline</span>
+</body>
+</html>
+">
+</iframe>
+
+<h2 id="1-3-inline-block-레벨-요소"><a href="#1-3-inline-block-레벨-요소" class="headerlink" title="1.3 inline-block 레벨 요소"></a>1.3 inline-block 레벨 요소</h2><p>block 과 inline 레벨 요소의 특징을 모두 갖는다. inline 레벨 요소와 같이 한 줄에 표현되면서 width, height, margin 프로퍼티를 모두 지정할 수 있다.</p>
+<ul>
+<li>기본적으로 inline 레벨요소와 흡사하게 줄을 바꾸지 않고 다른 요소와 함께 한 행에 위치시킬 수 있다. </li>
+<li>block 레벨 요소처럼 width, height, margin, padding 프로퍼티를 모두 정의할 수 있다. 상,하 여백을 margin과 line-height 두가지 프로퍼티 모두를 통해 제어할 수 있다. </li>
+<li>content의 너비만큼 가로폭을 차지한다. </li>
+<li>inline-block 레벨 요소 뒤에 공백(엔터, 스페이스 등)이 있는 경우, 정의하지 않은 space(4px)가 자동 지정된다.</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line">    .wrapper &#123;</span><br><span class="line"><span class="css">      <span class="attribute">font-size</span>: <span class="number">0</span>; <span class="comment">/*요소간 간격을 제거*/</span></span></span><br><span class="line">    &#125;</span><br><span class="line">    .inline-block &#123;</span><br><span class="line"><span class="css">      <span class="attribute">display</span>: inline-block;</span></span><br><span class="line"><span class="css">      <span class="attribute">vertical-align</span>: middle; <span class="comment">/* inline-block 요소 수직 정렬 */</span></span></span><br><span class="line"><span class="css">      <span class="attribute">border</span>: <span class="number">3px</span> solid <span class="number">#73AD21</span>;</span></span><br><span class="line"><span class="css">      <span class="attribute">font-size</span>: <span class="number">16px</span>;</span></span><br><span class="line">    &#125;</span><br><span class="line">    .box1 &#123;</span><br><span class="line"><span class="css">      <span class="attribute">width</span>: <span class="number">300px</span>;</span></span><br><span class="line"><span class="css">      <span class="attribute">height</span>: <span class="number">70px</span>;</span></span><br><span class="line">    &#125;</span><br><span class="line">    .box2 &#123;</span><br><span class="line"><span class="css">      <span class="attribute">width</span>: <span class="number">300px</span>;</span></span><br><span class="line"><span class="css">      <span class="attribute">height</span>: <span class="number">150px</span>;</span></span><br><span class="line">    &#125;</span><br><span class="line">  <span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;inline-block box1&quot;</span>&gt;</span>inline-block height 70px<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;inline-block box2&quot;</span>&gt;</span>inline-block height 150px<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;wrapper&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;inline-block box1&quot;</span>&gt;</span>inline-block height 70px<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;inline-block box2&quot;</span>&gt;</span>inline-block height 150px<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="result-2"><a href="#result-2" class="headerlink" title="result"></a><em><strong>result</strong></em></h3><iframe width='100%' height='350px' srcdoc="
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .wrapper {
+      font-size: 0; /*요소간 간격을 제거*/
+    }
+    .inline-block {
+      display: inline-block;
+      vertical-align: middle; /* inline-block 요소 수직 정렬 */
+      border: 3px solid #73AD21;
+      font-size: 16px;
+    }
+    .box1 {
+      width: 300px;
+      height: 70px;
+    }
+    .box2 {
+      width: 300px;
+      height: 150px;
+    }
+  </style>
+</head>
+<body>
+  <div class='inline-block box1'>inline-block height 70px</div>
+  <div class='inline-block box2'>inline-block height 150px</div>
+  <div class='wrapper'>
+    <div class='inline-block box1'>inline-block height 70px</div>
+    <div class='inline-block box2'>inline-block height 150px</div>
+  </div>
+</body>
+</html>
+">
+</iframe>
+
+<h1 id="2-visibility-프로퍼티"><a href="#2-visibility-프로퍼티" class="headerlink" title="2. visibility 프로퍼티"></a>2. visibility 프로퍼티</h1><p>visibility 프로퍼티는 요소를 보이게 할 것인지 보이지 않게 할 것인지를 정의한다. 즉, 요소의 렌더링 여부를 결정한다. </p>
+<table>
+<thead>
+<tr>
+<th>프러퍼티값 키워드</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>visible</td>
+<td>해당 요소를 보이게 한다(기본값)</td>
+</tr>
+<tr>
+<td>hidden</td>
+<td>해당 요소를 보이지 않게 한다. display: none; 은 해당 요소의 공간까지 사라지게 하지만 visibility:hidden;은 해당 요소의 공간은 사라지지 않고 남아있게 된다.</td>
+</tr>
+<tr>
+<td>collapse</td>
+<td>table 요소에 사용하며 행이나 열을 보이지 않게 한다.</td>
+</tr>
+<tr>
+<td>none</td>
+<td>table 요소의 row나 column을 보이지 않게 한다.</td>
+</tr>
+</tbody></table>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="css">    <span class="selector-class">.visible</span> &#123; <span class="attribute">visibility</span>: visible; &#125;</span></span><br><span class="line"><span class="css">    <span class="selector-class">.hidden</span>  &#123; <span class="attribute">visibility</span>: hidden; &#125;</span></span><br><span class="line"></span><br><span class="line"><span class="css">    <span class="selector-tag">table</span>, <span class="selector-tag">td</span> &#123; <span class="attribute">border</span>: <span class="number">1px</span> solid black; &#125;</span></span><br><span class="line"><span class="css">    <span class="selector-class">.collapse</span> &#123; <span class="attribute">visibility</span>: collapse; &#125;</span></span><br><span class="line"><span class="css">    <span class="comment">/* .collapse &#123; visibility: hidden; &#125; */</span></span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">h1</span> <span class="attr">class</span>=<span class="string">&quot;visible&quot;</span>&gt;</span>visibility: visible<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">h1</span> <span class="attr">class</span>=<span class="string">&quot;hidden&quot;</span>&gt;</span>visibility: hidden<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">h1</span> <span class="attr">style</span>=<span class="string">&quot;display:none&quot;</span>&gt;</span>display:none<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"></span><br><span class="line">  <span class="tag">&lt;<span class="name">table</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">td</span>&gt;</span>A<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">td</span>&gt;</span>B<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">tr</span> <span class="attr">class</span>=<span class="string">&quot;collapse&quot;</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">td</span>&gt;</span>C<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">td</span>&gt;</span>D<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="result-3"><a href="#result-3" class="headerlink" title="result"></a><em><strong>result</strong></em></h3><iframe width='100%' height='250px' srcdoc="
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .visible { visibility: visible; }
+    .hidden  { visibility: hidden; }
+    table, td { border: 1px solid black; }
+    .collapse { visibility: collapse; }
+    /* .collapse { visibility: hidden; } */
+  </style>
+</head>
+<body>
+  <h1 class='visible'>visibility: visible</h1>
+  <h1 class='hidden'>visibility: hidden</h1>
+  <h1 style='display:none'>display:none</h1>
+  <table>
+    <tr>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+    <tr class='collapse'>
+      <td>C</td>
+      <td>D</td>
+    </tr>
+  </table>
+</body>
+</html>
+">
+</iframe>
+
+<h1 id="3-opacity-프로퍼티"><a href="#3-opacity-프로퍼티" class="headerlink" title="3. opacity 프로퍼티"></a>3. opacity 프로퍼티</h1><p>opacity 프로퍼티는 요소의 투명도를 정의한다. 0.0 ~ 1.0의 값을 입력하며 0.0은 투명, 1.0은 불투명을 의미한다.</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="css">    <span class="selector-tag">div</span>, <span class="selector-tag">img</span> &#123;</span></span><br><span class="line"><span class="css">      <span class="attribute">float</span>: left;</span></span><br><span class="line"><span class="css">      <span class="attribute">width</span>: <span class="number">150px</span>;</span></span><br><span class="line"><span class="css">      <span class="attribute">height</span>: <span class="number">150px</span>;</span></span><br><span class="line"><span class="css">      <span class="attribute">margin</span>: <span class="number">30px</span>;</span></span><br><span class="line"><span class="css">      <span class="attribute">background-color</span>: blue;</span></span><br><span class="line"><span class="css">      <span class="attribute">color</span>: white;</span></span><br><span class="line"><span class="css">      <span class="attribute">opacity</span>: <span class="number">0.5</span>;</span></span><br><span class="line"><span class="css">      <span class="attribute">transition</span>: opacity <span class="number">1s</span>;</span></span><br><span class="line">    &#125;</span><br><span class="line"><span class="css">    <span class="selector-tag">div</span><span class="selector-pseudo">:hover</span>, <span class="selector-tag">img</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="css">      <span class="attribute">opacity</span>: <span class="number">1.0</span>;</span></span><br><span class="line">    &#125;</span><br><span class="line">  <span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span>&gt;</span>opacity: 0.5<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;../img/cat.png&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;cat&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="result-4"><a href="#result-4" class="headerlink" title="result"></a><em><strong>result</strong></em></h3><iframe width='100%' height='250px' srcdoc="
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    div, img {
+      float: left;
+      width: 150px;
+      height: 150px;
+      margin: 30px;
+      background-color: blue;
+      color: white;
+      opacity: 0.5;
+      transition: opacity 1s;
+    }
+    div:hover, img:hover {
+      opacity: 1.0;
+    }
+  </style>
+</head>
+<body>
+  <div>opacity: 0.5</div>
+  <img src='../img/cat.png' alt='cat'>
+</body>
+</html>
+">
+</iframe>
+
+<p><br><br></p>
+<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><p><a target="_blank" rel="noopener" href="https://poiemaweb.com/css3-display">poiemaweb.com/css3-display</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.w3.org/TR/CSS/">W3C CSS Document</a></p>
+</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-04-27T07:47:01.202Z" title="2021-4-27 16:47:01">2021-04-27</time>&nbsp;게시 됨</span><span class="level-item"><time dateTime="2021-05-03T08:21:14.096Z" title="2021-5-3 17:21:14">2021-05-03</time>&nbsp;업데이트 됨</span><span class="level-item"><a class="link-muted" href="/categories/css/">css</a></span><span class="level-item">29분안에 읽기 (약 4372 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2021/04/27/css3-day-4/">css3-day-4</a></h1><div class="content"><h2 id="2-4-CSS3-Box-Model"><a href="#2-4-CSS3-Box-Model" class="headerlink" title="2.4 CSS3 Box Model"></a>2.4 CSS3 Box Model</h2><h1 id="박스-모델"><a href="#박스-모델" class="headerlink" title="박스 모델"></a>박스 모델</h1><p>모든 HTML 요소는 Box 형태의 영역을 가지고 있다. Box 형태란 물론 사각형을 의미한다. </p>
 <p><img src="https://en.wikipedia.org/wiki/CSS_box_model#/media/File:Boxmodell-detail.png" alt="CSS3 Box Model"></p>
 <p>브라우저는 박스 모델의 크기(dimension)와 프로퍼티(색, 배경, 모양 등), 위치를 근거로 하여 렌더링을 실행한다.</p>
 <p>웹디자인은 콘텐츠를 담을 박스 모델을 정의하고 CSS 프로퍼티를 통해 스타일(배경, 폰트와 텍스트 등)과 위치 및 정령을 지정하는 것이라고 할 수 있다. </p>
@@ -2694,126 +2957,7 @@
   </body>
 </html>
 
-</div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-04-13T08:03:24.000Z" title="2021-4-13 17:03:24">2021-04-13</time>&nbsp;게시 됨</span><span class="level-item"><time dateTime="2021-04-15T07:20:26.931Z" title="2021-4-15 16:20:26">2021-04-15</time>&nbsp;업데이트 됨</span><span class="level-item"><a class="link-muted" href="/categories/html/">html</a></span><span class="level-item">5분안에 읽기 (약 766 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2021/04/13/html5-day-2/">html5-day-2</a></h1><div class="content"><h3 id="HTML5-Tag-Link"><a href="#HTML5-Tag-Link" class="headerlink" title="HTML5 Tag - Link"></a>HTML5 Tag - Link</h3><h1 id="HTML의-핵심-개념인-HyperLink"><a href="#HTML의-핵심-개념인-HyperLink" class="headerlink" title="HTML의 핵심 개념인 HyperLink"></a>HTML의 핵심 개념인 HyperLink</h1><p>HyperText의 Hyper는 컴퓨터 용어로서 텍스트 등의 정보가 동일 선상에 있는것이 아니라 다중으로 연결되어 있는 상태를 의미한다.<br>이것은 HTML의 가장 중요한 특징인 Link의 개념과 연결되는데 기존 문서난 텍스트의 선형성, 고정성의 제약에서 벗어나 사용자가 원하는 순서대로 원하는 정보를 취득할 수 있는 기능을 제공한다.<br>한 텍스트에서 다른 텍스트로 건너 뛰어 읽을 수 있는 이 기능을 <strong>하이퍼링크(hyperlink)</strong> 라 한다.</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;http://www.google.com&quot;</span>&gt;</span>Visit googole.com!<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<!DOCTYPE html>
-<html>
-    <body>
-        <a target="_blank" rel="noopener" href="http://www.google.com">Visit googole.com!</a>
-    </body>
-</html>
-
-<h1 id="1-href-어트리뷰트"><a href="#1-href-어트리뷰트" class="headerlink" title="1. href 어트리뷰트"></a>1. href 어트리뷰트</h1><p>href 어트리뷰트는 이동하고자 하는 파일의 위치(경로)를 값으로 받는다. 경로(path)란 파일 시스템 상에서 특정 파일의 위치를 의미한다.</p>
-<h1 id="1-1-디렉터리-Directory"><a href="#1-1-디렉터리-Directory" class="headerlink" title="1.1 디렉터리(Directory)"></a>1.1 디렉터리(Directory)</h1><p>디렉터리는 파일과 다른 디렉터리를 갖는 파일 시스템 내의 존재물로서 폴더라고도 불린다.</p>
-<blockquote>
-<p><strong>루트디렉터리</strong><br>파일 시스템 계층 구조 상의 최상위 디렉터리   </p>
-<ul>
-<li>Unix: /   </li>
-<li>Window: C:\   </li>
-</ul>
-</blockquote>
-<blockquote>
-<p><strong>홈 디렉터리</strong><br>시스템의 사용자에게 각각 할당된 개별 디렉터리이다. </p>
-<ul>
-<li>Unix: /Users/{계정명}</li>
-<li>Windows: C:\Users{계정명}</li>
-</ul>
-</blockquote>
-<blockquote>
-<p><strong>작업디렉터리</strong><br>작업중인 파일의 위치한 디렉터리이다.</p>
-<ul>
-<li>./</li>
-</ul>
-</blockquote>
-<blockquote>
-<p><strong>부모 디렉터리</strong><br>작업 디렉터리의 부모 디렉토리이다.</p>
-<ul>
-<li>../   </li>
-</ul>
-</blockquote>
-<h1 id="1-2-파일-경로-File-path"><a href="#1-2-파일-경로-File-path" class="headerlink" title="1.2 파일 경로(File path)"></a>1.2 파일 경로(File path)</h1><p>파일 경로는 파일 시스템에서 파일의 위치를 나타내는 방법이다. 경로에는 절대경로와 상대경로가 있다. </p>
-<blockquote>
-<p><strong>절대경로(Absolute path)</strong><br>현재 작업 디렉터리와 관계없이 특정 파일의 절대적인 위치를 가리킨다. 루트 디렉터리를 기준으로 파일의 위치를 나타낸다.</p>
-<ul>
-<li><a target="_blank" rel="noopener" href="http://www.test.com/index.html">http://www.test.com/index.html</a></li>
-<li>/Users/img/testImage.png</li>
-<li>C:\users\img\testImage.png</li>
-<li>/index.html   </li>
-</ul>
-</blockquote>
-<blockquote>
-<p><strong>상대경로(Relative path)</strong><br> 현재 작업 디렉터리를 기준으로 특정 파일의 상대적인 위치를 가리킨다.    </p>
-<ul>
-<li>./index.html</li>
-<li>../dist/index.js</li>
-<li>../../dist/index.js</li>
-<li>index.html</li>
-<li>html/index.html </li>
-</ul>
-</blockquote>
-<p>href 어트리뷰트에 사용 가능한 값은 아래와 같다.  </p>
-<table>
-<thead>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>절대 URL</td>
-<td>웹사이트 URL(href=”<a href="https://wontaejang.github.io/&quot;">https://wontaejang.github.io/&quot;</a>)</td>
-</tr>
-<tr>
-<td>상대 URL</td>
-<td>자신의 위치를 기준으로 한 대상의 URL (href=”html/about”)</td>
-</tr>
-<tr>
-<td>fragment identifier</td>
-<td>페이지 내의 특정 id를 갖는 요소의 링크 (href=”#top”)</td>
-</tr>
-<tr>
-<td>메일</td>
-<td>mailto:</td>
-</tr>
-<tr>
-<td>script</td>
-<td>href=”javascript:alert(“Hello World”);”</td>
-</tr>
-</tbody></table>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://www.google.com&quot;</span>&gt;</span>URL<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;html/index.html&quot;</span>&gt;</span>Local file<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;file/test.pdf&quot;</span> <span class="attr">download</span>&gt;</span>Download file<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#top&quot;</span>&gt;</span>fragment identifier<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;mailto:someone@example.com?Subject=Hello again&quot;</span>&gt;</span>Send Mail<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;javascript:alert(&#x27;Hello World&#x27;);&quot;</span>&gt;</span>Javascript<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<!DOCTYPE html>
-<html>
-  <body>
-    <a target="_blank" rel="noopener" href="https://www.google.com">URL</a><br>
-    <a href="html/index.html">Local file</a><br>
-    <a href="file/test.pdf" download>Download file</a><br>
-    <a href="#top">fragment identifier</a><br>
-    <a href="mailto:someone@example.com?Subject=Hello again">Send Mail</a><br>
-    <a href="javascript:alert('Hello World');">Javascript</a>
-  </body>
-</html>
-
-<h1 id="2-target-어트리뷰트"><a href="#2-target-어트리뷰트" class="headerlink" title="2. target 어트리뷰트"></a>2. target 어트리뷰트</h1><p>target 어트리뷰트는 링크를 클릭했을 때 윈도우를 어떻게 오픈할 지를 지정한다.</p>
-<table>
-<thead>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>_self</td>
-<td>링크를 클릭했을 때 연결문서를 현재 윈도우에서 오픈한다(기본 값)</td>
-</tr>
-<tr>
-<td>_blank</td>
-<td>링크를 클릭했을 때 연결문서를 새로운 윈도우나 탭에서 오픈한다</td>
-</tr>
-</tbody></table>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;http://www.google.com&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span>&gt;</span>Visit google!<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-</div></article></div><nav class="pagination" role="navigation" aria-label="pagination"><div class="pagination-previous"><a href="/page/6/">이전</a></div><div class="pagination-next"><a href="/page/8/">다음</a></div><ul class="pagination-list is-hidden-mobile"><li><a class="pagination-link" href="/">1</a></li><li><span class="pagination-ellipsis">&hellip;</span></li><li><a class="pagination-link" href="/page/6/">6</a></li><li><a class="pagination-link is-current" href="/page/7/">7</a></li><li><a class="pagination-link" href="/page/8/">8</a></li></ul></nav></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/img/main.jpg" alt="WT.Jang"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">WT.Jang</p><p class="is-size-6 is-block">Programmer/Dancer/Gamer</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>Asia/Seoul</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">포스트</p><a href="/archives"><p class="title">72</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">카테고리</p><a href="/categories"><p class="title">5</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">태그</p><a href="/tags"><p class="title">16</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/wontaejang" target="_blank" rel="noopener">팔로우</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/wontaejang"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Facebook" href="https://facebook.com"><i class="fab fa-facebook"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Twitter" href="https://twitter.com"><i class="fab fa-twitter"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Dribbble" href="https://dribbble.com"><i class="fab fa-dribbble"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="RSS" href="/"><i class="fas fa-rss"></i></a></div></div></div><!--!--><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">링크</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://hexo.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Hexo</span></span><span class="level-right"><span class="level-item tag">hexo.io</span></span></a></li></ul></div></div></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">카테고리</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/ASP-NET/"><span class="level-start"><span class="level-item">ASP.NET</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/css/"><span class="level-start"><span class="level-item">css</span></span><span class="level-end"><span class="level-item tag">15</span></span></a></li><li><a class="level is-mobile" href="/categories/html/"><span class="level-start"><span class="level-item">html</span></span><span class="level-end"><span class="level-item tag">6</span></span></a></li><li><a class="level is-mobile" href="/categories/javascript/"><span class="level-start"><span class="level-item">javascript</span></span><span class="level-end"><span class="level-item tag">7</span></span></a></li><li><a class="level is-mobile" href="/categories/python/"><span class="level-start"><span class="level-item">python</span></span><span class="level-end"><span class="level-item tag">41</span></span></a></li></ul></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">최근 글</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-07-08T01:54:45.683Z">2021-07-08</time></p><p class="title"><a href="/2021/07/08/py-exercises-11/">py-exercises-11</a></p><p class="categories"><a href="/categories/python/">python</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-07-08T01:17:35.444Z">2021-07-08</time></p><p class="title"><a href="/2021/07/08/py-day15-function/">py-day15-function</a></p><p class="categories"><a href="/categories/python/">python</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-07-07T02:47:42.511Z">2021-07-07</time></p><p class="title"><a href="/2021/07/07/py-test-1/">py-test-1</a></p><p class="categories"><a href="/categories/python/">python</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-07-07T02:42:04.878Z">2021-07-07</time></p><p class="title"><a href="/2021/07/07/py-exercises-10/">py-exercises-10</a></p><p class="categories"><a href="/categories/python/">python</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-07-07T01:36:27.285Z">2021-07-07</time></p><p class="title"><a href="/2021/07/07/py-day14-for/">py-day14-for</a></p><p class="categories"><a href="/categories/python/">python</a></p></div></article></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">아카이브</h3><ul class="menu-list"><li><a class="level is-mobile" href="/archives/2021/07/"><span class="level-start"><span class="level-item">7월 2021</span></span><span class="level-end"><span class="level-item tag">41</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/06/"><span class="level-start"><span class="level-item">6월 2021</span></span><span class="level-end"><span class="level-item tag">7</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/05/"><span class="level-start"><span class="level-item">5월 2021</span></span><span class="level-end"><span class="level-item tag">11</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/04/"><span class="level-start"><span class="level-item">4월 2021</span></span><span class="level-end"><span class="level-item tag">13</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">태그</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/Structure/"><span class="tag">Structure</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/asp-net/"><span class="tag">asp.net</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/audio/"><span class="tag">audio</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/c/"><span class="tag">c#</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/css/"><span class="tag">css</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/form/"><span class="tag">form</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/html/"><span class="tag">html</span><span class="tag">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/html5/"><span class="tag">html5</span><span class="tag">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/http/"><span class="tag">http</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/img/"><span class="tag">img</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/request/"><span class="tag">request</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/response/"><span class="tag">response</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/syntax/"><span class="tag">syntax</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/tag/"><span class="tag">tag</span><span class="tag">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/video/"><span class="tag">video</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/web/"><span class="tag">web</span><span class="tag">1</span></a></div></div></div></div></div><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">업데이트 소식 받기</h3><form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open(&#039;https://feedburner.google.com/fb/a/mailverify?uri=&#039;,&#039;popupwindow&#039;,&#039;scrollbars=yes,width=550,height=520&#039;);return true"><input type="hidden" value="" name="uri"><input type="hidden" name="loc" value="en_US"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="구독"></div></div></form></div></div></div><div class="card widget"><div class="card-content"><div class="notification is-danger">You need to set <code>client_id</code> and <code>slot_id</code> to show this AD unit. Please set it in <code>_config.yml</code>.</div></div></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo.svg" alt="git blog" height="28"></a><p class="is-size-7"><span>&copy; 2021 WT.Jang</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("ko");</script><script>var IcarusThemeSettings = {
+</div></article></div><nav class="pagination" role="navigation" aria-label="pagination"><div class="pagination-previous"><a href="/page/6/">이전</a></div><div class="pagination-next"><a href="/page/8/">다음</a></div><ul class="pagination-list is-hidden-mobile"><li><a class="pagination-link" href="/">1</a></li><li><span class="pagination-ellipsis">&hellip;</span></li><li><a class="pagination-link" href="/page/6/">6</a></li><li><a class="pagination-link is-current" href="/page/7/">7</a></li><li><a class="pagination-link" href="/page/8/">8</a></li></ul></nav></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/img/main.jpg" alt="WT.Jang"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">WT.Jang</p><p class="is-size-6 is-block">Programmer/Dancer/Gamer</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>Asia/Seoul</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">포스트</p><a href="/archives"><p class="title">73</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">카테고리</p><a href="/categories"><p class="title">5</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">태그</p><a href="/tags"><p class="title">16</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/wontaejang" target="_blank" rel="noopener">팔로우</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/wontaejang"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Facebook" href="https://facebook.com"><i class="fab fa-facebook"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Twitter" href="https://twitter.com"><i class="fab fa-twitter"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Dribbble" href="https://dribbble.com"><i class="fab fa-dribbble"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="RSS" href="/"><i class="fas fa-rss"></i></a></div></div></div><!--!--><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">링크</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://hexo.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Hexo</span></span><span class="level-right"><span class="level-item tag">hexo.io</span></span></a></li></ul></div></div></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">카테고리</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/ASP-NET/"><span class="level-start"><span class="level-item">ASP.NET</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/css/"><span class="level-start"><span class="level-item">css</span></span><span class="level-end"><span class="level-item tag">15</span></span></a></li><li><a class="level is-mobile" href="/categories/html/"><span class="level-start"><span class="level-item">html</span></span><span class="level-end"><span class="level-item tag">6</span></span></a></li><li><a class="level is-mobile" href="/categories/javascript/"><span class="level-start"><span class="level-item">javascript</span></span><span class="level-end"><span class="level-item tag">7</span></span></a></li><li><a class="level is-mobile" href="/categories/python/"><span class="level-start"><span class="level-item">python</span></span><span class="level-end"><span class="level-item tag">42</span></span></a></li></ul></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">최근 글</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-07-09T02:34:02.061Z">2021-07-09</time></p><p class="title"><a href="/2021/07/09/py-day16-class-object/">py-day16-class-object</a></p><p class="categories"><a href="/categories/python/">python</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-07-08T01:54:45.683Z">2021-07-08</time></p><p class="title"><a href="/2021/07/08/py-exercises-11/">py-exercises-11</a></p><p class="categories"><a href="/categories/python/">python</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-07-08T01:17:35.444Z">2021-07-08</time></p><p class="title"><a href="/2021/07/08/py-day15-function/">py-day15-function</a></p><p class="categories"><a href="/categories/python/">python</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-07-07T02:47:42.511Z">2021-07-07</time></p><p class="title"><a href="/2021/07/07/py-test-1/">py-test-1</a></p><p class="categories"><a href="/categories/python/">python</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-07-07T02:42:04.878Z">2021-07-07</time></p><p class="title"><a href="/2021/07/07/py-exercises-10/">py-exercises-10</a></p><p class="categories"><a href="/categories/python/">python</a></p></div></article></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">아카이브</h3><ul class="menu-list"><li><a class="level is-mobile" href="/archives/2021/07/"><span class="level-start"><span class="level-item">7월 2021</span></span><span class="level-end"><span class="level-item tag">42</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/06/"><span class="level-start"><span class="level-item">6월 2021</span></span><span class="level-end"><span class="level-item tag">7</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/05/"><span class="level-start"><span class="level-item">5월 2021</span></span><span class="level-end"><span class="level-item tag">11</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/04/"><span class="level-start"><span class="level-item">4월 2021</span></span><span class="level-end"><span class="level-item tag">13</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">태그</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/Structure/"><span class="tag">Structure</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/asp-net/"><span class="tag">asp.net</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/audio/"><span class="tag">audio</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/c/"><span class="tag">c#</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/css/"><span class="tag">css</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/form/"><span class="tag">form</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/html/"><span class="tag">html</span><span class="tag">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/html5/"><span class="tag">html5</span><span class="tag">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/http/"><span class="tag">http</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/img/"><span class="tag">img</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/request/"><span class="tag">request</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/response/"><span class="tag">response</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/syntax/"><span class="tag">syntax</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/tag/"><span class="tag">tag</span><span class="tag">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/video/"><span class="tag">video</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/web/"><span class="tag">web</span><span class="tag">1</span></a></div></div></div></div></div><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">업데이트 소식 받기</h3><form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open(&#039;https://feedburner.google.com/fb/a/mailverify?uri=&#039;,&#039;popupwindow&#039;,&#039;scrollbars=yes,width=550,height=520&#039;);return true"><input type="hidden" value="" name="uri"><input type="hidden" name="loc" value="en_US"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="구독"></div></div></form></div></div></div><div class="card widget"><div class="card-content"><div class="notification is-danger">You need to set <code>client_id</code> and <code>slot_id</code> to show this AD unit. Please set it in <code>_config.yml</code>.</div></div></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo.svg" alt="git blog" height="28"></a><p class="is-size-7"><span>&copy; 2021 WT.Jang</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("ko");</script><script>var IcarusThemeSettings = {
             article: {
                 highlight: {
                     clipboard: true,
